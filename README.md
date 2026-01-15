@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jervis - Full Stack Developer Portfolio
 
-## Getting Started
+A modern, minimalist portfolio website built with **Next.js**, **Tailwind CSS**, and **Framer Motion**. Designed to be clean, fast, and accessible, featuring a single-page flow with sleek modal overlays for seamless navigation.
 
-First, run the development server:
+## 🚀 Check it Out
+[Add your deployed link here]
+
+## ✨ Features
+
+-   **Modern Tech Stack**: Built on Next.js 14+ (App Router) and TypeScript.
+-   **Minimalist Design**: Clean aesthetics with high-contrast typography and specific brand colors for technologies.
+-   **Modal Layout**: "About" and "Contact" sections are implemented as accessible, animated modal overlays to keep the user context preserved.
+-   **Responsive**: Fully responsive 2-column Hero layout that adapts gracefully to mobile devices.
+-   **Animations**: Smooth entrance and hover effects using Framer Motion.
+-   **System Theme**: Automatically adapts to the user's system preference (Light/Dark mode) without cluttering the UI with toggles.
+
+## 🛠️ Tech Stack
+
+-   **Framework**: [Next.js](https://nextjs.org/)
+-   **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **Icons**: [React Icons](https://react-icons.github.io/react-icons/) (FontAwesome, SimpleIcons)
+-   **Animations**: [Framer Motion](https://www.framer.com/motion/)
+
+## 🏃‍♂️ Getting Started
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Jervis-UMTC/my-portfolio.git
+    cd my-portfolio
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📦 Build for Production
+
+To create an optimized production build:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will generate static pages and optimize assets for deployment.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/
+├── components/      # UI Components (Hero, Projects, Modals)
+├── assets/          # Static assets (Logos, Images)
+├── layout.tsx       # Root layout & SEO metadata
+├── page.tsx         # Main entry point (Home)
+└── globals.css      # Global styles & Tailwind directives
+```
 
-## Learn More
+## 🚀 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The easiest way to deploy this Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  Push your code to GitHub.
+2.  Import the repository into Vercel.
+3.  Vercel will detect Next.js and deploy automatically.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the [MIT License](LICENSE).
