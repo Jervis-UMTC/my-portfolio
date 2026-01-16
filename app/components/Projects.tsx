@@ -13,6 +13,13 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "PinoyPay",
+    description: "An offline-first PWA for Philippine payroll calculations, featuring smart overtime/holiday computations, calendar visualization, and privacy-focused local storage.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "PWA"],
+    link: "https://github.com/Jervis-UMTC/pinoy-pay",
+    image: "/assets/pinoypay.svg",
+  },
+  {
     title: "Portfolio Website",
     description: "My personal portfolio website built with Next.js and Tailwind CSS to showcase my projects and skills.",
     tech: ["Next.js", "React", "Tailwind CSS"],
@@ -36,6 +43,8 @@ export default function Projects() {
     "Flutter": "#02569b",
     "Dart": "#0175c2",
     "Firebase": "#ffca28",
+    "TypeScript": "#3178C6",
+    "PWA": "#5A0FC8",
   };
 
   const getTechStyle = (tech: string) => {
