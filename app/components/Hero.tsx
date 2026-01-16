@@ -12,7 +12,7 @@ export default function Hero() {
     { name: "Dart", icon: SiDart, hex: "#0175c2" },
     { name: "Flutter", icon: SiFlutter, hex: "#02569b" },
     { name: "React.js", icon: FaReact, hex: "#61dafb" },
-    { name: "Next.js", icon: SiNextdotjs, hex: "currentColor" }, // Adapts to theme text color
+    { name: "Next.js", icon: SiNextdotjs, hex: "currentColor" },
     { name: "Firebase", icon: SiFirebase, hex: "#ffca28" },
     { name: "HTML", icon: FaHtml5, hex: "#e34f26" },
     { name: "CSS", icon: FaCss3, hex: "#2965f1" },
@@ -86,8 +86,8 @@ export default function Hero() {
                 key={index}
                 className="flex items-center gap-2 px-3 py-1.5 rounded-md border transition-colors"
                 style={{
-                  backgroundColor: tech.hex === "currentColor" ? undefined : `${tech.hex}0D`, // 5% opacity for cleaner look
-                  borderColor: tech.hex === "currentColor" ? undefined : `${tech.hex}26` // 15% opacity
+                  backgroundColor: tech.hex === "currentColor" ? undefined : `${tech.hex}0D`,
+                  borderColor: tech.hex === "currentColor" ? undefined : `${tech.hex}26`
                 }}
               >
                 <tech.icon

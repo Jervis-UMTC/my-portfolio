@@ -3,7 +3,8 @@
 A modern, minimalist portfolio website built with **Next.js**, **Tailwind CSS**, and **Framer Motion**. Designed to be clean, fast, and accessible, featuring a single-page flow with sleek modal overlays for seamless navigation.
 
 ## 🚀 Check it Out
-[Add your deployed link here]
+
+[jervisp.me](https://jervisp.me/)
 
 ## ✨ Features
 

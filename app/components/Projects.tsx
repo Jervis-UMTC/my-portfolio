@@ -57,29 +57,15 @@ export default function Projects() {
     }
     return {
       containerStyle: {
-        backgroundColor: `${hex}10`, // Very subtle background
+        backgroundColor: `${hex}10`,
         borderColor: `${hex}20`,
       },
       containerClass: "border",
-      textStyle: { color: hex } // Keep brand color for text in projects (or switch to neutral if preferred, but usually projects are smaller tags)
-      // Actually per user request for readability, let's stick to neutral text for projects too? 
-      // User said "make them more readable". Colored text on tiny tags is bad. 
-      // Let's use the same logic: Icon/Dot color = brand, Text = Neutral.
-      // But Project tags don't have icons. 
-      // So for Project tags, we should probably keep the background light and maybe darken the text color if it's too bright (like yellow).
-      // Or just enforce a minimum contrast. 
-      // Alternative: Use a generic neutral tag with a colored "dot".
-      // Let's try: Neutral Text, but slightly thicker border or background? 
-      // Actually, standard "Badge" style is usually colored background + white text OR subtle background + dark colored text.
-      // The issue is Yellow text. 
-      // Let's try: Darker version of the hex for text? That's complex.
-      // Simplest fix for readability: Neutral Text + Colored Dot/Border.
+      textStyle: { color: hex }
     };
   };
 
-  // Redefining strategy for Projects to match Hero:
-  // Since we don't have icons in the array, we'll just strictly use the subtle bg/border and standard text.
-  // The user prioritizes "readable".
+
 
   const getProjectTechStyle = (tech: string) => {
     const hex = techHex[tech];
@@ -90,7 +76,6 @@ export default function Projects() {
       };
     }
 
-    // For readability, we will use a generic dark text color and rely on the border/bg for brand identity.
     return {
       className: "text-gray-700 dark:text-gray-300 border",
       style: {
