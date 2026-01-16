@@ -103,7 +103,12 @@ export default function Projects() {
             </div>
 
             <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-              <a href={project.link} className="flex items-center gap-2">
+              <a
+                href={project.link}
+                target={project.link.startsWith("http") ? "_blank" : undefined}
+                rel={project.link.startsWith("http") ? "noopener noreferrer" : undefined}
+                className="flex items-center gap-2"
+              >
                 {project.title} &rarr;
               </a>
             </h3>
