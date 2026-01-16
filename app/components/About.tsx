@@ -42,13 +42,13 @@ export default function About({ isOpen, onClose }: AboutProps) {
 
                 <div className="text-base md:text-lg text-gray-600 dark:text-gray-300 space-y-6 leading-relaxed">
                   <p>
-                    Hello! I'm a 3rd year Computer Science student at UMTC (University of Mindanao Tagum Campus). My journey in tech is driven by a curiosity to understand how things work and a desire to build solutions that solve real-world problems.
+                    Hello! I&apos;m a 3rd year Computer Science student at UMTC (University of Mindanao Tagum Campus). My journey in tech is driven by a curiosity to understand how things work and a desire to build solutions that solve real-world problems.
                   </p>
                   <p>
                     I have a diverse skill set ranging from mobile development with Flutter to full-stack web development using Next.js and FastAPI. I enjoy working with both frontend and backend technologies, constantly learning and adapting to new tools.
                   </p>
                   <p>
-                    When I'm not coding, I'm likely exploring new tech stacks, working on side projects, or studying for my upcoming exams.
+                    When I&apos;m not coding, I&apos;m likely exploring new tech stacks, working on side projects, or studying for my upcoming exams.
                   </p>
                 </div>
               </div>

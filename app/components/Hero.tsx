@@ -1,7 +1,7 @@
 "use client";
 
-import { FaJava, FaPython, FaReact, FaHtml5, FaCss3, FaJs, FaGithub, FaFacebook, FaDatabase } from "react-icons/fa";
-import { SiFastapi, SiFlutter, SiNextdotjs, SiFirebase, SiDart, SiSqlite } from "react-icons/si";
+import { FaJava, FaPython, FaReact, FaHtml5, FaCss3, FaGithub, FaFacebook, FaDatabase } from "react-icons/fa";
+import { SiFastapi, SiFlutter, SiNextdotjs, SiFirebase, SiDart, SiSqlite, SiTailwindcss, SiPwa } from "react-icons/si";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -16,6 +16,8 @@ export default function Hero() {
     { name: "Firebase", icon: SiFirebase, hex: "#ffca28" },
     { name: "HTML", icon: FaHtml5, hex: "#e34f26" },
     { name: "CSS", icon: FaCss3, hex: "#2965f1" },
+    { name: "Tailwind CSS", icon: SiTailwindcss, hex: "#06b6d4" },
+    { name: "PWA", icon: SiPwa, hex: "#5A0FC8" },
     { name: "SQL", icon: FaDatabase, hex: "#00758F" },
     { name: "SQLite", icon: SiSqlite, hex: "#003B57" },
   ];
@@ -30,8 +32,8 @@ export default function Hero() {
           className="flex flex-col items-start"
         >
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-4 text-gray-900 dark:text-gray-100">
-            Hi, I'm <span className="text-blue-600 dark:text-blue-400">Jervis</span> <br />
-            I'm a <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-500">developer.</span>
+            Hi, I&apos;m <span className="text-blue-600 dark:text-blue-400">Jervis</span> <br />
+            I&apos;m a <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-500">developer.</span>
           </h1>
 
           <div className="mb-8 flex items-center gap-2 text-gray-600 dark:text-gray-400 font-medium">
@@ -40,7 +42,7 @@ export default function Hero() {
           </div>
 
           <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 leading-relaxed max-w-lg">
-            I'm a 3rd year Computer Science student at UMTC (University of Mindanao Tagum Campus), passionate about building full-stack web and mobile applications.
+            I&apos;m a 3rd year Computer Science student at UMTC (University of Mindanao Tagum Campus), passionate about building full-stack web and mobile applications.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-8 w-full sm:w-auto">
             <a href="#projects" className="px-8 py-3.5 bg-blue-600 text-white text-sm font-bold uppercase tracking-widest rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all dark:bg-blue-500 dark:hover:bg-blue-600 text-center">
@@ -78,7 +80,7 @@ export default function Hero() {
           </div>
 
           <p className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-6">
-            Tech Stack
+            Technologies
           </p>
           <div className="flex flex-wrap gap-3">
             {technologies.map((tech, index) => (

@@ -47,23 +47,7 @@ export default function Projects() {
     "PWA": "#5A0FC8",
   };
 
-  const getTechStyle = (tech: string) => {
-    const hex = techHex[tech];
-    if (!hex || hex === "currentColor") {
-      return {
-        containerClass: "bg-gray-100 dark:bg-zinc-800 border-gray-200 dark:border-zinc-700 text-gray-700 dark:text-gray-300",
-        textStyle: {}
-      };
-    }
-    return {
-      containerStyle: {
-        backgroundColor: `${hex}10`,
-        borderColor: `${hex}20`,
-      },
-      containerClass: "border",
-      textStyle: { color: hex }
-    };
-  };
+
 
 
 

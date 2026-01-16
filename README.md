@@ -15,13 +15,14 @@ A modern, minimalist portfolio website built with **Next.js**, **Tailwind CSS**,
 -   **Animations**: Smooth entrance and hover effects using Framer Motion.
 -   **System Theme**: Automatically adapts to the user's system preference (Light/Dark mode) without cluttering the UI with toggles.
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies
 
 -   **Framework**: [Next.js](https://nextjs.org/)
 -   **Language**: [TypeScript](https://www.typescriptlang.org/)
 -   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 -   **Icons**: [React Icons](https://react-icons.github.io/react-icons/) (FontAwesome, SimpleIcons)
 -   **Animations**: [Framer Motion](https://www.framer.com/motion/)
+-   **PWA**: [Next-PWA](https://www.npmjs.com/package/next-pwa)
 
 ## 🏃‍♂️ Getting Started
 

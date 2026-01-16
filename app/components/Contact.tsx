@@ -43,7 +43,7 @@ export default function Contact({ isOpen, onClose }: ContactProps) {
                 <div className="flex flex-col gap-8">
                   <div>
                     <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                      I'm based in the Philippines and accessible for new opportunities. <br className="hidden sm:block" />
+                      I&apos;m based in the Philippines and accessible for new opportunities. <br className="hidden sm:block" />
                       Have a question or want to collaborate?
                     </p>
                     <a
