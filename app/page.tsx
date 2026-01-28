@@ -1,9 +1,7 @@
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-
 import Projects from "./components/Projects";
-
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -13,8 +11,6 @@ export default function Home() {
       <main className="flex flex-col">
         <Hero />
         <Projects />
-
-
       </main>
       <Footer />
     </div>

@@ -13,6 +13,13 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Chooz",
+    description: "A random selection web app with Wheel of Names, Coin Flip, and Dice Roll.",
+    tech: ["React", "Vite", "Styled Components", "Framer Motion"],
+    link: "https://github.com/Jervis-UMTC/chooz",
+    image: "/assets/chooz-text-logo.svg",
+  },
+  {
     title: "PinoyPay",
     description: "An offline-first PWA for Philippine payroll calculations, featuring smart overtime/holiday computations, calendar visualization, and privacy-focused local storage.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "PWA"],
@@ -45,6 +52,9 @@ export default function Projects() {
     "Firebase": "#ffca28",
     "TypeScript": "#3178C6",
     "PWA": "#5A0FC8",
+    "Vite": "#646CFF",
+    "Styled Components": "#DB7093",
+    "Framer Motion": "#FF0055",
   };
 
 
