@@ -16,7 +16,7 @@ const projects: Project[] = [
     title: "Chooz",
     description: "A random selection web app with Wheel of Names, Coin Flip, and Dice Roll.",
     tech: ["React", "Vite", "Styled Components", "Framer Motion"],
-    link: "https://github.com/Jervis-UMTC/chooz",
+    link: "https://chooz-app.vercel.app",
     image: "/assets/chooz-text-logo.svg",
   },
   {
