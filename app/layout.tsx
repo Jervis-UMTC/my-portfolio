@@ -15,7 +15,33 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Jervis | Full-Stack Developer",
-  description: "Portfolio of Jervis, a 3rd year CS student and Full-Stack Developer specializing in Next.js, Flutter, and Python.",
+  description:
+    "Portfolio of Jervis, a 3rd year CS student and Full-Stack Developer specializing in Next.js, Flutter, Python, and Machine Learning.",
+  keywords: [
+    "Full-Stack Developer",
+    "Next.js",
+    "Flutter",
+    "Python",
+    "Portfolio",
+    "Web Developer",
+    "Mobile Developer",
+    "React",
+    "TypeScript",
+  ],
+  authors: [{ name: "Jervis" }],
+  openGraph: {
+    title: "Jervis | Full-Stack Developer",
+    description:
+      "Portfolio of Jervis, a 3rd year CS student and Full-Stack Developer specializing in Next.js, Flutter, Python, and Machine Learning.",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jervis | Full-Stack Developer",
+    description:
+      "Portfolio of Jervis, a 3rd year CS student and Full-Stack Developer specializing in Next.js, Flutter, Python, and Machine Learning.",
+  },
 };
 
 export default function RootLayout({
@@ -24,13 +50,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased selection:bg-blue-600 selection:text-white dark:selection:bg-blue-500 dark:selection:text-white`}
       >
-        <Providers>
-          {children}
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
